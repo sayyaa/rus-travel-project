@@ -1,0 +1,6 @@
+.landscape__photo-img {
+  display: block;
+  object-fit: fill;
+  width: 100%;
+}
+

@@ -1,0 +1,29 @@
+.area__places {
+  margin: 0 148px;
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .area__places {
+    margin: 0 48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .area__places {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .area__places  {
+    margin:  0 16px;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .area__places  {
+    margin: 0;
+  }
+}

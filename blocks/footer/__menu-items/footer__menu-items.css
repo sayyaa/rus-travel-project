@@ -1,0 +1,13 @@
+.footer__menu-items {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+
+@media screen and (max-width: 720px) {
+  .footer__menu-items {
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 48px;
+  }
+}

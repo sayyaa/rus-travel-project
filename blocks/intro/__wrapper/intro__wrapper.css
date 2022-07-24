@@ -1,0 +1,29 @@
+.intro__wrapper {
+  max-width: 690px;
+  margin-bottom: 92px;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+  .intro__wrapper {
+    padding: 0 48px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .intro__wrapper {
+    margin-bottom: 88px;
+    max-width: 720px;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .intro__wrapper {
+    margin: 0 auto;
+    margin-bottom: 64px;
+    max-width: 288px;
+  }
+}
