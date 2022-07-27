@@ -1,20 +1,21 @@
 .place__img {
   width: 100%;
   max-width: 460px;
-
   grid-row: 2;
   grid-column: 1;
-
 }
 
 @media screen and (max-width: 660px) {
-  .place__img  {
+  .place__img {
     order: 2;
+    padding: 0 48px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .place__img  {
-    width: 100%;
+  .place__img {
+    padding: 0;
   }
 }
+
+

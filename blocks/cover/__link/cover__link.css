@@ -8,7 +8,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 720px;
+  min-height: 740px;
   text-decoration: none;
   color: inherit;
   position: relative;
@@ -33,7 +33,6 @@
   opacity: 0.8;
 }
 
-
 @media screen and (max-width: 1024px) {
   .cover__link {
     min-height: 640px;
@@ -43,10 +42,11 @@
 @media screen and (max-width: 768px) {
   .cover__link {
     min-height: 480px;
+    margin-bottom: 86px;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 425px) {
   .cover__link {
     min-height: 200px;
     margin-bottom: 64px;

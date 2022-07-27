@@ -1,11 +1,12 @@
 @media screen and (max-width: 660px) {
-  .place__text-wrapper  {
+  .place__text-wrapper {
     order: 3;
+    padding: 0 48px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .place__text-wrapper  {
-    margin: 0 16px;
+  .place__text-wrapper {
+    padding: 0 16px;
   }
 }

@@ -1,15 +1,14 @@
 .header__languages {
   display: flex;
   width: 100%;
-  max-width: 80px;
+  max-width: 76px;
   margin-left: auto;
   margin-top: 19px;
-  max-height: 28px;
-  position: relative;
 }
 
 @media screen and (max-width: 550px) {
   .header__languages {
-    max-width: 60px;
+    max-width: 62px;
+    margin-top: 15px;
   }
 }

@@ -1,0 +1,25 @@
+.area {
+  margin: 0 auto;
+  max-width: 984px;
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .area {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .area {
+    padding: 0 24px;
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .area  {
+    padding: 0;
+    margin-bottom: 66px;
+  }
+}
